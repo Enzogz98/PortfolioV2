@@ -32,7 +32,7 @@ export function FloatingProfile() {
             {/* Profile image */}
             <div className="relative w-20 h-20 rounded-full overflow-hidden border-4 border-cyan-500/50 group-hover:border-cyan-400 transition-colors cursor-grab active:cursor-grabbing">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1737575655055-e3967cbefd03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjIwNzQ1NTl8MA&ixlib=rb-4.1.0&q=80&w=400"
+                src="https://i.postimg.cc/6pbpQ0mk/20250722-105517.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

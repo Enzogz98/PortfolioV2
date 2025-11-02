@@ -51,6 +51,7 @@ export function Hero() {
 
             <motion.p
               className="text-xl text-slate-600 dark:text-slate-400 mb-12 max-w-2xl mx-auto"
+               style={{ color: '#9ca3af' }}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}

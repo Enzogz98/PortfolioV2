@@ -13,8 +13,8 @@ export function Header() {
   const handleDownloadCV = () => {
     // Simulate CV download - in production, these would be actual PDF files
     const cvUrls = {
-      en: '/cv-english.pdf',
-      es: '/cv-spanish.pdf',
+      en: './CV-English.pdf',
+      es: './CV-Spanish.pdf',
     };
     
     const link = document.createElement('a');

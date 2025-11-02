@@ -97,9 +97,9 @@ export function Contact() {
                     <div className={`w-12 h-12 rounded-lg bg-gradient-to-br ${link.color} flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-transform`}>
                       <Icon className="w-6 h-6 text-white" />
                     </div>
-                    <p className="text-slate-700 dark:text-slate-300 break-all">
+                    {/* <p className="text-slate-700 dark:text-slate-300 break-all">
                       {link.label}
-                    </p>
+                    </p> */}
                   </div>
                 </motion.a>
               );

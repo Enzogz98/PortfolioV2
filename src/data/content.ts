@@ -8,7 +8,7 @@ export const content = {
       contact: 'Contact',
     },
     hero: {
-      greeting: 'Hello, I\'m',
+      greeting: 'Hello, I\'m Enzo Gonzalez',
       title: 'Full Stack Developer',
       subtitle: 'Crafting robust applications with modern technologies',
       cta: 'View My Work',
@@ -34,30 +34,30 @@ export const content = {
         {
           title: 'Full Stack Developer',
           company: 'Clínica Mayo',
-          period: '2023 - Present',
-          description: 'Developing healthcare management systems with focus on patient data security and real-time monitoring. Building scalable applications using React, .NET, and SQL Server.',
+          period: 'August 2025 - Present',
+          description: 'Developing Medexis management systems with focus on patient data security and real-time monitoring. Building scalable applications using .NET, Entity Framework and SQL Server.',
           achievements: [
             'Built patient management dashboard',
-            'Implemented secure authentication system',
+            'Reduced server response time by 40%',
             'Optimized database performance',
           ],
         },
         {
           title: 'Backend Developer',
           company: 'Nefrogen',
-          period: '2022 - 2023',
-          description: 'Specialized in backend development for medical technology solutions. Developed RESTful APIs and database architectures using .NET and SQL Server.',
+          period: 'March 2025 - Present',
+          description: 'Developing healthcare management systems with focus on patient data security and real-time monitoring. Building scalable applications using React, .NET, and SQL Server.',
           achievements: [
             'Designed scalable API architecture',
-            'Reduced server response time by 40%',
+            'Implemented secure authentication system',
             'Implemented automated testing',
           ],
         },
         {
           title: 'Full Stack Developer',
           company: 'Zoco Servicios de Pago',
-          period: '2021 - 2022',
-          description: 'Developed payment processing solutions and financial applications. Worked with React, Node.js, and secure payment integrations.',
+          period: 'April 2023 - April 2025',
+          description: 'Developed payment processing solutions and financial applications. Worked with React, Node.js, ASP .NET and secure payment integrations.',
           achievements: [
             'Built secure payment gateway integration',
             'Implemented transaction monitoring system',
@@ -67,7 +67,7 @@ export const content = {
         {
           title: 'Full Stack Developer',
           company: 'Albornoz Programación',
-          period: '2020 - 2021',
+          period: 'January 2022 - December 2023',
           description: 'Created custom web applications for various clients using modern JavaScript frameworks and backend technologies.',
           achievements: [
             'Delivered 10+ client projects',
@@ -84,148 +84,156 @@ export const content = {
       viewLive: 'Live Demo',
       items: [
         {
-          title: 'E-Commerce Platform',
-          description: 'Full-featured online shopping platform with real-time inventory management, payment processing, and admin dashboard.',
-          tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+          title: 'Zoco Servicios de Pago',
+          description: 'Full-featured platform with real-time payment processing, and admin dashboard.',
+          tech: ['React', 'ASP.NET', 'SQL Server', 'Python', 'Node.js'],
         },
         {
-          title: 'Project Management Tool',
+          title: 'Tordo Nefrogen',
           description: 'Collaborative tool for managing projects, tasks, and team communication with real-time updates.',
-          tech: ['React', '.NET', 'SQL Server', 'SignalR'],
+          tech: ['React', 'Node.js', 'NestJS', 'Next.js', 'MySQL'],
         },
         {
-          title: 'Analytics Dashboard',
-          description: 'Data visualization platform for business intelligence with interactive charts and customizable reports.',
-          tech: ['React', 'Python', 'MySQL', 'D3.js'],
+          title: 'Medexis Clínica Mayo',
+          description: 'Data visualization platform for healthcare management with interactive charts and customizable reports.',
+          tech: ['.NET', 'SQL Server', 'Entity Framework', 'JavaScript'],
         },
       ],
     },
     contact: {
       title: 'Contact',
       subtitle: 'Let\'s connect',
-      email: 'your.email@example.com',
-      phone: '+1234567890',
-      linkedin: 'linkedin.com/in/yourprofile',
-      github: 'github.com/yourprofile',
+      email: 'enzo.114998@gmail.com',
+      phone: '+54 9 3814563507',
+      linkedin: 'www.linkedin.com/in/enzo-gonzalez-4518291bb/',
+      github: 'github.com/Enzogz98',
       message: 'Feel free to reach out for collaborations or opportunities!',
     },
   },
-  es: {
-    nav: {
-      about: 'Sobre Mí',
-      skills: 'Habilidades',
-      experience: 'Experiencia',
-      projects: 'Proyectos',
-      contact: 'Contacto',
-    },
-    hero: {
-      greeting: 'Hola, soy',
-      title: 'Desarrollador Full Stack',
-      subtitle: 'Creando aplicaciones robustas con tecnologías modernas',
-      cta: 'Ver Mi Trabajo',
-      downloadCV: 'Descargar CV',
-    },
-    about: {
-      title: 'Sobre Mí',
-      description: 'Soy un desarrollador full-stack apasionado con experiencia en la construcción de aplicaciones web escalables. Con una sólida base en tecnologías frontend y backend, creo experiencias de usuario fluidas respaldadas por una arquitectura sólida del lado del servidor. Mi enfoque combina prácticas de código limpio con resolución creativa de problemas para entregar soluciones de alta calidad.',
-      highlight: 'Me apasiona convertir desafíos complejos en soluciones elegantes.',
-    },
-    skills: {
-      title: 'Arsenal Tecnológico',
-      subtitle: 'Tecnologías con las que trabajo',
-      frontend: 'Frontend',
-      backend: 'Backend',
-      databases: 'Bases de Datos',
-      tools: 'Herramientas y Otros',
-    },
-    experience: {
-      title: 'Experiencia',
-      subtitle: 'Mi trayectoria profesional',
-      jobs: [
-        {
-          title: 'Desarrollador Full Stack',
-          company: 'Clínica Mayo',
-          period: '2023 - Presente',
-          description: 'Desarrollo de sistemas de gestión sanitaria con enfoque en la seguridad de datos de pacientes y monitoreo en tiempo real. Construcción de aplicaciones escalables usando React, .NET y SQL Server.',
-          achievements: [
-            'Construcción de panel de gestión de pacientes',
-            'Implementación de sistema de autenticación seguro',
-            'Optimización del rendimiento de base de datos',
-          ],
-        },
-        {
-          title: 'Desarrollador Backend',
-          company: 'Nefrogen',
-          period: '2022 - 2023',
-          description: 'Especialización en desarrollo backend para soluciones de tecnología médica. Desarrollo de APIs RESTful y arquitecturas de bases de datos usando .NET y SQL Server.',
-          achievements: [
-            'Diseño de arquitectura API escalable',
-            'Reducción del tiempo de respuesta del servidor en un 40%',
-            'Implementación de pruebas automatizadas',
-          ],
-        },
-        {
-          title: 'Desarrollador Full Stack',
-          company: 'Zoco Servicios de Pago',
-          period: '2021 - 2022',
-          description: 'Desarrollo de soluciones de procesamiento de pagos y aplicaciones financieras. Trabajo con React, Node.js e integraciones de pago seguras.',
-          achievements: [
-            'Construcción de integración de pasarela de pago segura',
-            'Implementación de sistema de monitoreo de transacciones',
-            'Mejora de mecanismos de detección de fraude',
-          ],
-        },
-        {
-          title: 'Desarrollador Full Stack',
-          company: 'Albornoz Programación',
-          period: '2020 - 2021',
-          description: 'Creación de aplicaciones web personalizadas para varios clientes usando frameworks JavaScript modernos y tecnologías backend.',
-          achievements: [
-            'Entrega de más de 10 proyectos de clientes',
-            'Desarrollo de bibliotecas de componentes reutilizables',
-            'Mentoría de desarrolladores junior',
-          ],
-        },
-      ],
-    },
-    projects: {
-      title: 'Proyectos Destacados',
-      subtitle: 'Algunos de mis trabajos recientes',
-      viewCode: 'Ver Código',
-      viewLive: 'Demo en Vivo',
-      items: [
-        {
-          title: 'Plataforma de E-Commerce',
-          description: 'Plataforma de compras en línea con gestión de inventario en tiempo real, procesamiento de pagos y panel de administración.',
-          tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-        },
-        {
-          title: 'Herramienta de Gestión de Proyectos',
-          description: 'Herramienta colaborativa para gestionar proyectos, tareas y comunicación del equipo con actualizaciones en tiempo real.',
-          tech: ['React', '.NET', 'SQL Server', 'SignalR'],
-        },
-        {
-          title: 'Dashboard de Análisis',
-          description: 'Plataforma de visualización de datos para inteligencia empresarial con gráficos interactivos e informes personalizables.',
-          tech: ['React', 'Python', 'MySQL', 'D3.js'],
-        },
-      ],
-    },
-    contact: {
-      title: 'Contacto',
-      subtitle: 'Conectemos',
-      email: 'tu.email@ejemplo.com',
-      phone: '+1234567890',
-      linkedin: 'linkedin.com/in/tuperfil',
-      github: 'github.com/tuperfil',
-      message: '¡No dudes en contactarme para colaboraciones u oportunidades!',
-    },
+ es: {
+  nav: {
+    about: 'Sobre mí',
+    skills: 'Habilidades',
+    experience: 'Experiencia',
+    projects: 'Proyectos',
+    contact: 'Contacto',
   },
+  hero: {
+    greeting: 'Hola, soy Enzo González',
+    title: 'Desarrollador Full Stack',
+    subtitle: 'Creando aplicaciones robustas con tecnologías modernas',
+    cta: 'Ver mi trabajo',
+    downloadCV: 'Descargar CV',
+  },
+  about: {
+    title: 'Sobre mí',
+    description:
+      'Soy un desarrollador full-stack apasionado con experiencia en la construcción de aplicaciones web escalables. Con una base sólida tanto en tecnologías frontend como backend, creo experiencias de usuario fluidas respaldadas por una arquitectura robusta del lado del servidor. Mi enfoque combina prácticas de código limpio con una resolución creativa de problemas para entregar soluciones de alta calidad.',
+    highlight: 'Me entusiasma convertir desafíos complejos en soluciones elegantes.',
+  },
+  skills: {
+    title: 'Arsenal tecnológico',
+    subtitle: 'Tecnologías con las que trabajo',
+    frontend: 'Frontend',
+    backend: 'Backend',
+    databases: 'Bases de datos',
+    tools: 'Herramientas y otros',
+  },
+  experience: {
+    title: 'Experiencia',
+    subtitle: 'Mi trayectoria profesional',
+    jobs: [
+      {
+        title: 'Desarrollador Full Stack',
+        company: 'Clínica Mayo',
+        period: 'Agosto 2025 - Presente',
+        description:
+          'Desarrollo del sistema Medexis con enfoque en la seguridad de datos de pacientes y monitoreo en tiempo real. Construcción de aplicaciones escalables usando .NET, Entity Framework y SQL Server.',
+        achievements: [
+          'Construcción de panel de gestión de pacientes',
+          'Reducción del tiempo de respuesta del servidor en un 40%',
+          'Optimización del rendimiento de la base de datos',
+        ],
+      },
+      {
+        title: 'Desarrollador Backend',
+        company: 'Nefrogen',
+        period: 'Marzo 2025 - Presente',
+        description:
+          'Desarrollo de sistemas de gestión de salud con foco en seguridad de datos y monitoreo en tiempo real. Construcción de aplicaciones escalables usando React, .NET y SQL Server.',
+        achievements: [
+          'Diseño de una arquitectura de APIs escalable',
+          'Implementación de un sistema de autenticación seguro',
+          'Implementación de pruebas automatizadas',
+        ],
+      },
+      {
+        title: 'Desarrollador Full Stack',
+        company: 'Zoco Servicios de Pago',
+        period: 'Abril 2023 - Abril 2025',
+        description:
+          'Desarrollo de soluciones de procesamiento de pagos y aplicaciones financieras. Trabajo con React, Node.js, ASP.NET e integraciones de pago seguras.',
+        achievements: [
+          'Implementación de integración con pasarela de pagos segura',
+          'Implementación de sistema de monitoreo de transacciones',
+          'Mejora de mecanismos de detección de fraude',
+        ],
+      },
+      {
+        title: 'Desarrollador Full Stack',
+        company: 'Albornoz Programación',
+        period: 'Enero 2022 - Diciembre 2023',
+        description:
+          'Creación de aplicaciones web personalizadas para distintos clientes usando frameworks modernos de JavaScript y tecnologías backend.',
+        achievements: [
+          'Entrega de 10+ proyectos para clientes',
+          'Desarrollo de bibliotecas de componentes reutilizables',
+          'Mentoría a desarrolladores junior',
+        ],
+      },
+    ],
+  },
+  projects: {
+    title: 'Proyectos destacados',
+    subtitle: 'Algunos de mis trabajos recientes',
+    viewCode: 'Ver código',
+    viewLive: 'Demo en vivo',
+    items: [
+      {
+        title: 'Zoco Servicios de Pago',
+        description:
+          'Plataforma completa con procesamiento de pagos en tiempo real y panel de administración.',
+        tech: ['React', 'ASP.NET', 'SQL Server', 'Python', 'Node.js'],
+      },
+      {
+        title: 'Tordo Nefrogen',
+        description:
+          'Herramienta colaborativa para gestionar proyectos, tareas y comunicación del equipo con actualizaciones en tiempo real.',
+        tech: ['React', 'Node.js', 'NestJS', 'Next.js', 'MySQL'],
+      },
+      {
+        title: 'Medexis Clínica Mayo',
+        description:
+          'Plataforma de visualización de datos para gestión sanitaria con gráficos interactivos e informes personalizables.',
+        tech: ['.NET', 'SQL Server', 'Entity Framework', 'JavaScript'],
+      },
+    ],
+  },
+  contact: {
+    title: 'Contacto',
+    subtitle: 'Conectemos',
+    email: 'enzo.114998@gmail.com',
+    phone: '+54 9 3814563507',
+    linkedin: 'www.linkedin.com/in/enzo-gonzalez-4518291bb/',
+    github: 'github.com/Enzogz98',
+    message: '¡No dudes en contactarme para colaboraciones u oportunidades!',
+  },
+},
 };
 
 export const techStack = {
   frontend: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js'],
-  backend: ['Node.js', '.NET', 'Python', 'Express'],
+  backend: ['Node.js + Express', '.NET', 'Python', 'NestJS'],
   databases: ['MongoDB', 'SQL Server', 'MySQL', 'PostgreSQL'],
   tools: ['Git', 'Docker', 'AWS', 'Azure', 'Jest'],
 };
