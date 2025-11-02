@@ -2,9 +2,13 @@ import { motion } from 'motion/react';
 import { useState } from 'react';
 import { X } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export function FloatingProfile() {
   const [isMinimized, setIsMinimized] = useState(false);
+  const { language } = useLanguage();
+
+  const tooltipText = language === 'es' ? '¡Arrástrame!' : 'Drag me around!';
 
   return (
     <>
@@ -15,13 +19,8 @@ export function FloatingProfile() {
           transition={{ delay: 1, duration: 0.5, type: 'spring', bounce: 0.5 }}
           className="fixed bottom-8 right-8 z-40 group"
           drag
-          dragConstraints={{
-            top: -window.innerHeight + 200,
-            left: -window.innerWidth + 200,
-            right: 0,
-            bottom: 0,
-          }}
-          dragElastic={0.1}
+          dragConstraints={false} // ✅ libre, sin calcular window size
+          dragElastic={0.12}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -52,16 +51,16 @@ export function FloatingProfile() {
               <div className="w-full h-full bg-green-400 rounded-full animate-ping opacity-75" />
             </div>
 
-            {/* Tooltip on hover */}
-            <div className="absolute bottom-full right-0 mb-2 px-3 py-1 bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap text-sm pointer-events-none">
-              Drag me around!
+            {/* Tooltip */}
+            <div className="absolute bottom-full right-0 mb-2 px-3 py-1 bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap text-sm pointer-events-none shadow-md">
+              {tooltipText}
               <div className="absolute top-full right-4 w-2 h-2 bg-slate-100 dark:bg-slate-900 rotate-45 -mt-1" />
             </div>
           </div>
         </motion.div>
       )}
 
-      {/* Restore button when minimized */}
+      {/* Restore button */}
       {isMinimized && (
         <motion.button
           initial={{ opacity: 0, scale: 0 }}
